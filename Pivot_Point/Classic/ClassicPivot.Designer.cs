@@ -53,176 +53,196 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 43);
+            this.label1.Location = new System.Drawing.Point(60, 85);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 15);
+            this.label1.Size = new System.Drawing.Size(50, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "High";
             // 
             // txt_High
             // 
-            this.txt_High.Location = new System.Drawing.Point(113, 40);
+            this.txt_High.Location = new System.Drawing.Point(161, 80);
+            this.txt_High.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_High.Name = "txt_High";
-            this.txt_High.Size = new System.Drawing.Size(100, 23);
+            this.txt_High.Size = new System.Drawing.Size(141, 31);
             this.txt_High.TabIndex = 1;
             // 
             // txt_Close
             // 
-            this.txt_Close.Location = new System.Drawing.Point(113, 87);
+            this.txt_Close.Location = new System.Drawing.Point(161, 145);
+            this.txt_Close.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_Close.Name = "txt_Close";
-            this.txt_Close.Size = new System.Drawing.Size(100, 23);
+            this.txt_Close.Size = new System.Drawing.Size(141, 31);
             this.txt_Close.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 90);
+            this.label2.Location = new System.Drawing.Point(60, 150);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 15);
+            this.label2.Size = new System.Drawing.Size(55, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Close";
             // 
             // txt_Low
             // 
-            this.txt_Low.Location = new System.Drawing.Point(113, 134);
+            this.txt_Low.Location = new System.Drawing.Point(161, 212);
+            this.txt_Low.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_Low.Name = "txt_Low";
-            this.txt_Low.Size = new System.Drawing.Size(100, 23);
+            this.txt_Low.Size = new System.Drawing.Size(141, 31);
             this.txt_Low.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(42, 137);
+            this.label3.Location = new System.Drawing.Point(60, 217);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 15);
+            this.label3.Size = new System.Drawing.Size(44, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "Low";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(265, 34);
+            this.label4.Location = new System.Drawing.Point(379, 57);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 15);
+            this.label4.Size = new System.Drawing.Size(52, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "Pivot";
             // 
             // lbl_S1
             // 
             this.lbl_S1.AutoSize = true;
-            this.lbl_S1.Location = new System.Drawing.Point(371, 101);
+            this.lbl_S1.Location = new System.Drawing.Point(530, 168);
+            this.lbl_S1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_S1.Name = "lbl_S1";
-            this.lbl_S1.Size = new System.Drawing.Size(0, 15);
+            this.lbl_S1.Size = new System.Drawing.Size(0, 25);
             this.lbl_S1.TabIndex = 7;
             // 
             // lbl_R1
             // 
             this.lbl_R1.AutoSize = true;
-            this.lbl_R1.Location = new System.Drawing.Point(486, 101);
+            this.lbl_R1.Location = new System.Drawing.Point(694, 168);
+            this.lbl_R1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_R1.Name = "lbl_R1";
-            this.lbl_R1.Size = new System.Drawing.Size(0, 15);
+            this.lbl_R1.Size = new System.Drawing.Size(0, 25);
             this.lbl_R1.TabIndex = 8;
             // 
             // lbl_R2
             // 
             this.lbl_R2.AutoSize = true;
-            this.lbl_R2.Location = new System.Drawing.Point(486, 136);
+            this.lbl_R2.Location = new System.Drawing.Point(694, 227);
+            this.lbl_R2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_R2.Name = "lbl_R2";
-            this.lbl_R2.Size = new System.Drawing.Size(0, 15);
+            this.lbl_R2.Size = new System.Drawing.Size(0, 25);
             this.lbl_R2.TabIndex = 10;
             // 
             // lbl_S2
             // 
             this.lbl_S2.AutoSize = true;
-            this.lbl_S2.Location = new System.Drawing.Point(371, 136);
+            this.lbl_S2.Location = new System.Drawing.Point(530, 227);
+            this.lbl_S2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_S2.Name = "lbl_S2";
-            this.lbl_S2.Size = new System.Drawing.Size(0, 15);
+            this.lbl_S2.Size = new System.Drawing.Size(0, 25);
             this.lbl_S2.TabIndex = 9;
             // 
             // lbl_R3
             // 
             this.lbl_R3.AutoSize = true;
-            this.lbl_R3.Location = new System.Drawing.Point(486, 172);
+            this.lbl_R3.Location = new System.Drawing.Point(694, 287);
+            this.lbl_R3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_R3.Name = "lbl_R3";
-            this.lbl_R3.Size = new System.Drawing.Size(0, 15);
+            this.lbl_R3.Size = new System.Drawing.Size(0, 25);
             this.lbl_R3.TabIndex = 12;
             // 
             // lbl_S3
             // 
             this.lbl_S3.AutoSize = true;
-            this.lbl_S3.Location = new System.Drawing.Point(371, 171);
+            this.lbl_S3.Location = new System.Drawing.Point(530, 285);
+            this.lbl_S3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_S3.Name = "lbl_S3";
-            this.lbl_S3.Size = new System.Drawing.Size(0, 15);
+            this.lbl_S3.Size = new System.Drawing.Size(0, 25);
             this.lbl_S3.TabIndex = 11;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(266, 101);
+            this.label11.Location = new System.Drawing.Point(380, 168);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(22, 15);
+            this.label11.Size = new System.Drawing.Size(36, 25);
             this.label11.TabIndex = 14;
             this.label11.Text = "1st";
             // 
             // lbl_PivotValue
             // 
             this.lbl_PivotValue.AutoSize = true;
-            this.lbl_PivotValue.Location = new System.Drawing.Point(425, 34);
+            this.lbl_PivotValue.Location = new System.Drawing.Point(607, 57);
+            this.lbl_PivotValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_PivotValue.Name = "lbl_PivotValue";
-            this.lbl_PivotValue.Size = new System.Drawing.Size(0, 15);
+            this.lbl_PivotValue.Size = new System.Drawing.Size(0, 25);
             this.lbl_PivotValue.TabIndex = 13;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(266, 172);
+            this.label13.Location = new System.Drawing.Point(380, 287);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(24, 15);
+            this.label13.Size = new System.Drawing.Size(39, 25);
             this.label13.TabIndex = 16;
             this.label13.Text = "3rd";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(266, 136);
+            this.label14.Location = new System.Drawing.Point(380, 227);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(27, 15);
+            this.label14.Size = new System.Drawing.Size(43, 25);
             this.label14.TabIndex = 15;
             this.label14.Text = "2nd";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(473, 66);
+            this.label5.Location = new System.Drawing.Point(676, 110);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 15);
+            this.label5.Size = new System.Drawing.Size(93, 25);
             this.label5.TabIndex = 18;
             this.label5.Text = "Resistance";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(369, 66);
+            this.label6.Location = new System.Drawing.Point(527, 110);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 15);
+            this.label6.Size = new System.Drawing.Size(77, 25);
             this.label6.TabIndex = 17;
             this.label6.Text = "Support";
             // 
             // btn_ClassicPivot
             // 
-            this.btn_ClassicPivot.Location = new System.Drawing.Point(45, 172);
+            this.btn_ClassicPivot.Location = new System.Drawing.Point(73, 273);
+            this.btn_ClassicPivot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_ClassicPivot.Name = "btn_ClassicPivot";
-            this.btn_ClassicPivot.Size = new System.Drawing.Size(168, 48);
+            this.btn_ClassicPivot.Size = new System.Drawing.Size(219, 52);
             this.btn_ClassicPivot.TabIndex = 19;
-            this.btn_ClassicPivot.Text = "Pivot | Support | Resistance";
+            this.btn_ClassicPivot.Text = "Classic PSR";
             this.btn_ClassicPivot.UseVisualStyleBackColor = true;
             this.btn_ClassicPivot.Click += new System.EventHandler(this.button1_Click);
             // 
             // ClassicPivot
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 251);
+            this.ClientSize = new System.Drawing.Size(846, 418);
             this.Controls.Add(this.btn_ClassicPivot);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
@@ -243,6 +263,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txt_High);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ClassicPivot";
             this.Text = "Classic Pivot Support & Resistance ";
             this.ResumeLayout(false);

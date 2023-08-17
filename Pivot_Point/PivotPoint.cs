@@ -1,4 +1,5 @@
 ﻿using Pivot_Point_Finder.Pivot_Point.Classic;
+using Pivot_Point_Finder.Pivot_Point.Fibonacci;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -30,6 +31,20 @@ namespace Pivot_Point_Finder.Pivot_Point
             cPivot.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             cPivot.Dock = DockStyle.Fill;
             cPivot.Show();
+        }
+
+        private void btn_Fibonacci_Click(object sender, EventArgs e)
+        {
+            if (panel_Pivot.Controls.Count > 0)
+            {
+                panel_Pivot.Controls.RemoveAt(0);
+            }
+            FibonacciPivot fibPivot = new FibonacciPivot();
+            fibPivot.TopLevel = false;
+            panel_Pivot.Controls.Add(fibPivot);
+            fibPivot.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            fibPivot.Dock = DockStyle.Fill;
+            fibPivot.Show();
         }
     }
 }

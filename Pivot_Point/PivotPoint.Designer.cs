@@ -35,9 +35,10 @@
             // 
             // btn_Classic
             // 
-            this.btn_Classic.Location = new System.Drawing.Point(172, 27);
+            this.btn_Classic.Location = new System.Drawing.Point(246, 45);
+            this.btn_Classic.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_Classic.Name = "btn_Classic";
-            this.btn_Classic.Size = new System.Drawing.Size(136, 23);
+            this.btn_Classic.Size = new System.Drawing.Size(194, 38);
             this.btn_Classic.TabIndex = 0;
             this.btn_Classic.Text = "Classic Pivot";
             this.btn_Classic.UseVisualStyleBackColor = true;
@@ -45,28 +46,32 @@
             // 
             // btn_Fibonacci
             // 
-            this.btn_Fibonacci.Location = new System.Drawing.Point(370, 27);
+            this.btn_Fibonacci.Location = new System.Drawing.Point(529, 45);
+            this.btn_Fibonacci.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_Fibonacci.Name = "btn_Fibonacci";
-            this.btn_Fibonacci.Size = new System.Drawing.Size(157, 23);
+            this.btn_Fibonacci.Size = new System.Drawing.Size(224, 38);
             this.btn_Fibonacci.TabIndex = 1;
             this.btn_Fibonacci.Text = "Fibonacci Pivot";
             this.btn_Fibonacci.UseVisualStyleBackColor = true;
+            this.btn_Fibonacci.Click += new System.EventHandler(this.btn_Fibonacci_Click);
             // 
             // panel_Pivot
             // 
-            this.panel_Pivot.Location = new System.Drawing.Point(12, 56);
+            this.panel_Pivot.Location = new System.Drawing.Point(17, 93);
+            this.panel_Pivot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel_Pivot.Name = "panel_Pivot";
-            this.panel_Pivot.Size = new System.Drawing.Size(659, 231);
+            this.panel_Pivot.Size = new System.Drawing.Size(941, 385);
             this.panel_Pivot.TabIndex = 2;
             // 
             // PivotPoint
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(677, 329);
+            this.ClientSize = new System.Drawing.Size(967, 548);
             this.Controls.Add(this.panel_Pivot);
             this.Controls.Add(this.btn_Fibonacci);
             this.Controls.Add(this.btn_Classic);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "PivotPoint";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PivotPoint";
