@@ -35,7 +35,7 @@
             // 
             // btn_Classic
             // 
-            this.btn_Classic.Location = new System.Drawing.Point(246, 45);
+            this.btn_Classic.Location = new System.Drawing.Point(208, 37);
             this.btn_Classic.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_Classic.Name = "btn_Classic";
             this.btn_Classic.Size = new System.Drawing.Size(194, 38);
@@ -46,7 +46,7 @@
             // 
             // btn_Fibonacci
             // 
-            this.btn_Fibonacci.Location = new System.Drawing.Point(529, 45);
+            this.btn_Fibonacci.Location = new System.Drawing.Point(491, 37);
             this.btn_Fibonacci.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_Fibonacci.Name = "btn_Fibonacci";
             this.btn_Fibonacci.Size = new System.Drawing.Size(224, 38);
@@ -57,24 +57,24 @@
             // 
             // panel_Pivot
             // 
-            this.panel_Pivot.Location = new System.Drawing.Point(17, 93);
+            this.panel_Pivot.Location = new System.Drawing.Point(16, 85);
             this.panel_Pivot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel_Pivot.Name = "panel_Pivot";
-            this.panel_Pivot.Size = new System.Drawing.Size(941, 385);
+            this.panel_Pivot.Size = new System.Drawing.Size(916, 385);
             this.panel_Pivot.TabIndex = 2;
             // 
             // PivotPoint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(967, 548);
+            this.ClientSize = new System.Drawing.Size(944, 490);
             this.Controls.Add(this.panel_Pivot);
             this.Controls.Add(this.btn_Fibonacci);
             this.Controls.Add(this.btn_Classic);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "PivotPoint";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PivotPoint";
+            this.Text = "Pivot Point";
             this.ResumeLayout(false);
 
         }
