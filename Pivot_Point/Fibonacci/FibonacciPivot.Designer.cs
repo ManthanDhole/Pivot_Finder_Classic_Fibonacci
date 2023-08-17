@@ -28,12 +28,249 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btn_FibonacciPivot = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lbl_PivotValue = new System.Windows.Forms.Label();
+            this.lbl_R3 = new System.Windows.Forms.Label();
+            this.lbl_S3 = new System.Windows.Forms.Label();
+            this.lbl_R2 = new System.Windows.Forms.Label();
+            this.lbl_S2 = new System.Windows.Forms.Label();
+            this.lbl_R1 = new System.Windows.Forms.Label();
+            this.lbl_S1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txt_Low = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txt_Close = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txt_High = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // btn_FibonacciPivot
+            // 
+            this.btn_FibonacciPivot.Location = new System.Drawing.Point(41, 174);
+            this.btn_FibonacciPivot.Name = "btn_FibonacciPivot";
+            this.btn_FibonacciPivot.Size = new System.Drawing.Size(168, 48);
+            this.btn_FibonacciPivot.TabIndex = 39;
+            this.btn_FibonacciPivot.Text = "Pivot | Support | Resistance";
+            this.btn_FibonacciPivot.UseVisualStyleBackColor = true;
+            this.btn_FibonacciPivot.Click += new System.EventHandler(this.btn_ClassicPivot_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(469, 68);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(62, 15);
+            this.label5.TabIndex = 38;
+            this.label5.Text = "Resistance";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(365, 68);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(49, 15);
+            this.label6.TabIndex = 37;
+            this.label6.Text = "Support";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(262, 174);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(24, 15);
+            this.label13.TabIndex = 36;
+            this.label13.Text = "3rd";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(262, 138);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(27, 15);
+            this.label14.TabIndex = 35;
+            this.label14.Text = "2nd";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(262, 103);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(22, 15);
+            this.label11.TabIndex = 34;
+            this.label11.Text = "1st";
+            // 
+            // lbl_PivotValue
+            // 
+            this.lbl_PivotValue.AutoSize = true;
+            this.lbl_PivotValue.Location = new System.Drawing.Point(421, 36);
+            this.lbl_PivotValue.Name = "lbl_PivotValue";
+            this.lbl_PivotValue.Size = new System.Drawing.Size(0, 15);
+            this.lbl_PivotValue.TabIndex = 33;
+            // 
+            // lbl_R3
+            // 
+            this.lbl_R3.AutoSize = true;
+            this.lbl_R3.Location = new System.Drawing.Point(482, 174);
+            this.lbl_R3.Name = "lbl_R3";
+            this.lbl_R3.Size = new System.Drawing.Size(0, 15);
+            this.lbl_R3.TabIndex = 32;
+            // 
+            // lbl_S3
+            // 
+            this.lbl_S3.AutoSize = true;
+            this.lbl_S3.Location = new System.Drawing.Point(367, 173);
+            this.lbl_S3.Name = "lbl_S3";
+            this.lbl_S3.Size = new System.Drawing.Size(0, 15);
+            this.lbl_S3.TabIndex = 31;
+            // 
+            // lbl_R2
+            // 
+            this.lbl_R2.AutoSize = true;
+            this.lbl_R2.Location = new System.Drawing.Point(482, 138);
+            this.lbl_R2.Name = "lbl_R2";
+            this.lbl_R2.Size = new System.Drawing.Size(0, 15);
+            this.lbl_R2.TabIndex = 30;
+            // 
+            // lbl_S2
+            // 
+            this.lbl_S2.AutoSize = true;
+            this.lbl_S2.Location = new System.Drawing.Point(367, 138);
+            this.lbl_S2.Name = "lbl_S2";
+            this.lbl_S2.Size = new System.Drawing.Size(0, 15);
+            this.lbl_S2.TabIndex = 29;
+            // 
+            // lbl_R1
+            // 
+            this.lbl_R1.AutoSize = true;
+            this.lbl_R1.Location = new System.Drawing.Point(482, 103);
+            this.lbl_R1.Name = "lbl_R1";
+            this.lbl_R1.Size = new System.Drawing.Size(0, 15);
+            this.lbl_R1.TabIndex = 28;
+            // 
+            // lbl_S1
+            // 
+            this.lbl_S1.AutoSize = true;
+            this.lbl_S1.Location = new System.Drawing.Point(367, 103);
+            this.lbl_S1.Name = "lbl_S1";
+            this.lbl_S1.Size = new System.Drawing.Size(0, 15);
+            this.lbl_S1.TabIndex = 27;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(261, 36);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(34, 15);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Pivot";
+            // 
+            // txt_Low
+            // 
+            this.txt_Low.Location = new System.Drawing.Point(109, 136);
+            this.txt_Low.Name = "txt_Low";
+            this.txt_Low.Size = new System.Drawing.Size(100, 23);
+            this.txt_Low.TabIndex = 25;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(38, 139);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(29, 15);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "Low";
+            // 
+            // txt_Close
+            // 
+            this.txt_Close.Location = new System.Drawing.Point(109, 89);
+            this.txt_Close.Name = "txt_Close";
+            this.txt_Close.Size = new System.Drawing.Size(100, 23);
+            this.txt_Close.TabIndex = 23;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(38, 92);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 15);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "Close";
+            // 
+            // txt_High
+            // 
+            this.txt_High.Location = new System.Drawing.Point(109, 42);
+            this.txt_High.Name = "txt_High";
+            this.txt_High.Size = new System.Drawing.Size(100, 23);
+            this.txt_High.TabIndex = 21;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(38, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 15);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "High";
+            // 
+            // FibonacciPivot
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(589, 249);
+            this.Controls.Add(this.btn_FibonacciPivot);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lbl_PivotValue);
+            this.Controls.Add(this.lbl_R3);
+            this.Controls.Add(this.lbl_S3);
+            this.Controls.Add(this.lbl_R2);
+            this.Controls.Add(this.lbl_S2);
+            this.Controls.Add(this.lbl_R1);
+            this.Controls.Add(this.lbl_S1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txt_Low);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txt_Close);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txt_High);
+            this.Controls.Add(this.label1);
+            this.Name = "FibonacciPivot";
             this.Text = "FibonacciPivot";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private Button btn_FibonacciPivot;
+        private Label label5;
+        private Label label6;
+        private Label label13;
+        private Label label14;
+        private Label label11;
+        private Label lbl_PivotValue;
+        private Label lbl_R3;
+        private Label lbl_S3;
+        private Label lbl_R2;
+        private Label lbl_S2;
+        private Label lbl_R1;
+        private Label lbl_S1;
+        private Label label4;
+        private TextBox txt_Low;
+        private Label label3;
+        private TextBox txt_Close;
+        private Label label2;
+        private TextBox txt_High;
+        private Label label1;
     }
 }

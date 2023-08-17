@@ -16,5 +16,10 @@ namespace Pivot_Point_Finder.Pivot_Point.Fibonacci
         {
             InitializeComponent();
         }
+
+        private void btn_ClassicPivot_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
